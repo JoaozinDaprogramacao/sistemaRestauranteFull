@@ -1,0 +1,65 @@
+header {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+
+header .logo {
+    margin-left: 43%;
+    height: 15%;
+    width: 15%;
+    padding-bottom: 5px;
+}
+
+
+.wrap, .formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.formConteudo {
+    width: 300px;
+    height: px;
+}
+
+.principal {
+    width: 450px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+h3 {
+    text-align: center;
+}
+
+label {
+    float:left;
+    display:block;
+    width: 80px;
+}
+
+input, textarea {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 10px 10px 5px;
+}
+
+label, h3 {
+    color: #131313f0;
+}
+
+.fragForm {
+    margin-left: 5%;
+    margin-top: 5px;
+}
+
+
+#botao {
+    margin-top: 30px;
+    margin-left: 12px;
+    background-color: #e50914;
+    color: #fff;
+    text-align: center;
+}
